@@ -17,7 +17,7 @@ public class App {
     @GetMapping("/")
     public String home(Model model) {
         // Pass the header text to the view
-        model.addAttribute("header", "CRX demo Jenkis");
+        model.addAttribute("header", "CRX BLR HEMA");
         return "index"; // Return the index.html template
     }
 }
